@@ -1,0 +1,175 @@
+
+
+* Global Styles */
+
+body {
+  font-family: 'Arial', sans-serif; /* Use clean, modern fonts */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9; /* Light background color */
+  color: #333; /* Darker text for better readability */
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #2c3e50; /* Use a consistent theme color for headings */
+  text-align: center;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff; /* Change link color on hover */
+  text-decoration: none;
+}
+
+/* Header Styling */
+header {
+  background: linear-gradient(to right, #d589e8, #85938c); /* Gradient background */
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  margin: 0 15px;
+  color: white;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: none;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: linear-gradient(to right, #d589e8, #85938c); /* Gradient background */
+  color: white;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+/* Section Styling */
+section {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background: rgba(227, 228, 225, 0.945);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  margin-top: 0;
+  /* border: 2px solid #0056b3; */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+section p {
+  margin: 10px 0;
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+/* Profile Picture Styling */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 5%;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Buttons */
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 5px;
+  background-color:rgba(255, 0, 0, 0.888);
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #2dbe58ea;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color:white;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.navbar a {
+  padding: 14px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.navbar a:hover {
+  background-color: #003580;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.9em;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  .navbar a {
+    padding: 10px 15px;
+    font-size: 0.9em;
+  }
+}
+.space{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.space1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
